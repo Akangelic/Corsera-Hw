@@ -1,0 +1,76 @@
+body{
+    background-color:#EEFCED;
+    font-family: 'Asap Condensed', sans-serif;
+    
+}
+nav{
+    background-color:#082306;
+    border: solid 1px #041103;
+    border-radius: 5px;
+    position: relative; 
+  
+}
+nav h1{
+    color:#EEFCED;
+    padding: 10px;
+    font-size: 2em !important;
+    
+    
+
+}
+#my-menu {
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right:0;
+    
+    
+}
+#nav-list{
+    box-sizing: border-box;
+    background-color: #9AC1A3;
+    text-align: center;
+    height: 700px;
+    
+}
+#nav-list li{
+    font-size: 2em;
+    margin-top: 50px;
+    padding: 10px;
+}
+#nav-list li:hover{
+    background-color:#CCE0D1;
+    padding: 10px;
+}
+   
+
+h2{
+    margin: 20px;
+    font-size: 50px;
+}
+#chicken{
+    background-color: #67A275;
+    
+}
+#beef{
+    background-color: #38DD2C;
+}
+#sushi{
+    background-color: #80FE20;
+    
+}
+#section1, #section2, #section3{
+    margin-top:20px;
+}
+
+
+
+
+
+/* media queries*/
+@media (max-width:540px){
+    #section3, #section2, #section1{
+        margin-top: 40px;
+       
+    }
+}
